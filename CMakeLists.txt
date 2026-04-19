@@ -50,6 +50,7 @@ set(SOURCES
     src/gui/DateRangeSelector.cpp
     src/gui/RadiusSearchDialog.cpp
     src/gui/SensorSelectorWidget.cpp
+    src/gui/BatchDownloader.cpp
 
     # Utils
     src/utils/Logger.cpp
@@ -79,6 +80,7 @@ set(HEADERS
     include/gui/DateRangeSelector.hpp
     include/gui/RadiusSearchDialog.hpp
     include/gui/SensorSelectorWidget.hpp
+    include/gui/BatchDownloader.hpp
 
     include/utils/Logger.hpp
     include/utils/AppExceptions.hpp
