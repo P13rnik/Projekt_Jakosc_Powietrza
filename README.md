@@ -11,8 +11,9 @@ REST API Głównego Inspektoratu Ochrony Środowiska (GIOŚ).
 |-----------|-----------------|
 | Qt        | 6.4             |
 | CMake     | 3.20            |
-| Kompilator| GCC 11 / MSVC 2022 / Clang 14 |
-| Google Test (opcjonalnie) | 1.12 |
+| Kompilator| GCC 11 / Clang 14 |
+
+Google Test jest pobierany automatycznie przez CMake FetchContent — nie wymaga osobnej instalacji.
 
 ---
 
@@ -20,7 +21,7 @@ REST API Głównego Inspektoratu Ochrony Środowiska (GIOŚ).
 
 ### Qt Creator (zalecane)
 1. Otwórz Qt Creator → **Open Project** → wybierz `CMakeLists.txt`
-2. Wybierz kit (np. *Desktop Qt 6.x GCC 64bit*)
+2. Wybierz kit (np. *Desktop Qt 6.x MinGW 64bit*)
 3. Kliknij **Build** (Ctrl+B)
 4. Uruchom: **Run** (Ctrl+R)
 
@@ -32,21 +33,29 @@ cmake --build . -j$(nproc)
 ./AirQualityProject
 ```
 
-### Wiersz poleceń (Windows – MSVC)
+### Wiersz poleceń (Windows – MinGW)
 ```cmd
 mkdir build && cd build
-cmake .. -G "Visual Studio 17 2022" -A x64
-cmake --build . --config Release
-Release\AirQualityProject.exe
+cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
+cmake --build .
+AirQualityProject.exe
 ```
 
 ---
 
 ## Uruchamianie testów
+
+Testy jednostkowe są budowane automatycznie razem z projektem.
+
+### Windows
+```cmd
+cd <ścieżka_do_folderu_build>
+AirQualityTests.exe
+```
+
+### Linux/macOS
 ```bash
 cd build
-ctest --output-on-failure
-# lub bezpośrednio:
 ./AirQualityTests
 ```
 
@@ -71,7 +80,6 @@ AirQualityProject/
 ├── Doxyfile                # Konfiguracja Doxygen
 ├── data/                   # Lokalna baza danych (JSON, tworzony auto)
 │   └── measurements/
-├── docs/                   # Wygenerowana dokumentacja HTML
 ├── include/                # Pliki nagłówkowe (.hpp)
 │   ├── api/                # GiosClient, AsyncFetcher
 │   ├── core/               # Station, Sensor, Measurement
@@ -90,7 +98,6 @@ AirQualityProject/
 ## Generowanie dokumentacji Doxygen
 
 ```bash
-# W katalogu głównym projektu:
 doxygen Doxyfile
 # Dokumentacja pojawi się w docs/html/index.html
 ```
@@ -115,7 +122,4 @@ API jest publiczne, nie wymaga klucza dostępu.
 
 Jeśli API GIOŚ jest niedostępne, aplikacja automatycznie wczytuje dane
 z katalogu `data/` (ostatnio pobrane dane są tam zapisywane jako cache).
-Status online/offline jest sygnalizowany kolorem paska stanu na dole okna.
-
----
-
+Status online/offline jest sygnalizowany banerem na górze okna aplikacji.
