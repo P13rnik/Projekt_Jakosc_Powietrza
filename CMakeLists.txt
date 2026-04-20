@@ -96,28 +96,33 @@ target_link_libraries(${PROJECT_NAME}
     Qt6::Charts
 )
 
-# Google Test (opcjonalne - testy jednostkowe)
-find_package(GTest QUIET)
-if(GTest_FOUND)
-    enable_testing()
-    add_executable(AirQualityTests
-        tests/test_AirAnalyzer.cpp
-        tests/test_DatabaseManager.cpp
-        tests/test_GeoLocator.cpp
-        tests/test_AirQualityIndex.cpp
-        tests/test_Sensor.cpp
-        src/core/Station.cpp
-        src/core/Sensor.cpp
-        src/core/Measurement.cpp
-        src/core/AirQualityIndex.cpp
-        src/storage/DatabaseManager.cpp
-        src/analysis/AirAnalyzer.cpp
-        src/analysis/LinearTrendStrategy.cpp
-        src/analysis/MovingAverageTrendStrategy.cpp
-        src/analysis/GeoLocator.cpp
-        src/utils/Logger.cpp
-        src/utils/AppExceptions.cpp
-    )
-    target_link_libraries(AirQualityTests GTest::GTest GTest::Main Qt6::Core)
-    add_test(NAME AirQualityTests COMMAND AirQualityTests)
-endif()
+# Google Test - pobierany automatycznie przez FetchContent
+include(FetchContent)
+FetchContent_Declare(
+    googletest
+    URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+add_executable(AirQualityTests
+    tests/test_AirAnalyzer.cpp
+    tests/test_DatabaseManager.cpp
+    tests/test_GeoLocator.cpp
+    tests/test_AirQualityIndex.cpp
+    tests/test_Sensor.cpp
+    src/core/Station.cpp
+    src/core/Sensor.cpp
+    src/core/Measurement.cpp
+    src/core/AirQualityIndex.cpp
+    src/storage/DatabaseManager.cpp
+    src/analysis/AirAnalyzer.cpp
+    src/analysis/LinearTrendStrategy.cpp
+    src/analysis/MovingAverageTrendStrategy.cpp
+    src/analysis/GeoLocator.cpp
+    src/utils/Logger.cpp
+    src/utils/AppExceptions.cpp
+)
+target_link_libraries(AirQualityTests gtest gtest_main Qt6::Core Qt6::Network)
+add_test(NAME AirQualityTests COMMAND AirQualityTests)
