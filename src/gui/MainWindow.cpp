@@ -62,7 +62,7 @@ void MainWindow::setupUi() {
 
     m_trendCombo = new QComboBox(this);
     m_trendCombo->addItem(STR("Trend: regresja liniowa"));
-    m_trendCombo->addItem(STR("Trend: średnia krocżąca"));
+    m_trendCombo->addItem(STR("Trend: średnia krocząca"));
 
     m_refreshButton = new QPushButton(STR("Pobierz najnowsze dane"), this);
     m_refreshButton->setStyleSheet(
