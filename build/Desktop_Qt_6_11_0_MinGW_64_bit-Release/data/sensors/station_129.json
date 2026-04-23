@@ -1,0 +1,37 @@
+[
+    {
+        "id": 737,
+        "paramCode": "CO",
+        "paramFormula": "CO",
+        "paramName": "tlenek węgla",
+        "stationId": 129
+    },
+    {
+        "id": 739,
+        "paramCode": "NO",
+        "paramFormula": "NO",
+        "paramName": "tlenek azotu",
+        "stationId": 129
+    },
+    {
+        "id": 740,
+        "paramCode": "NO2",
+        "paramFormula": "NO2",
+        "paramName": "dwutlenek azotu",
+        "stationId": 129
+    },
+    {
+        "id": 741,
+        "paramCode": "NOx",
+        "paramFormula": "NOx",
+        "paramName": "tlenki azotu",
+        "stationId": 129
+    },
+    {
+        "id": 744,
+        "paramCode": "PM2.5",
+        "paramFormula": "PM2.5",
+        "paramName": "pył zawieszony PM2.5",
+        "stationId": 129
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 220,
+        "paramCode": "NO",
+        "paramFormula": "NO",
+        "paramName": "tlenek azotu",
+        "stationId": 38
+    },
+    {
+        "id": 221,
+        "paramCode": "NO2",
+        "paramFormula": "NO2",
+        "paramName": "dwutlenek azotu",
+        "stationId": 38
+    },
+    {
+        "id": 222,
+        "paramCode": "NOx",
+        "paramFormula": "NOx",
+        "paramName": "tlenki azotu",
+        "stationId": 38
+    },
+    {
+        "id": 223,
+        "paramCode": "O3",
+        "paramFormula": "O3",
+        "paramName": "ozon",
+        "stationId": 38
+    },
+    {
+        "id": 224,
+        "paramCode": "PM10",
+        "paramFormula": "PM10",
+        "paramName": "pył zawieszony PM10",
+        "stationId": 38
+    },
+    {
+        "id": 25988,
+        "paramCode": "PM2.5",
+        "paramFormula": "PM2.5",
+        "paramName": "pył zawieszony PM2.5",
+        "stationId": 38
+    }
+]

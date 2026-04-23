@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AirQualityProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AirQualityProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AirQualityProject-Debug-8fac886e2e8d7bec71e0.json",
+					"name" : "AirQualityProject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AirQualityProject_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AirQualityProject_autogen-Debug-ca77bdb485f3fdf8757b.json",
+					"name" : "AirQualityProject_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AirQualityProject_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AirQualityProject_autogen_timestamp_deps-Debug-8448ad8f59dfef3230a1.json",
+					"name" : "AirQualityProject_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/szymo/OneDrive/Dokumenty/AirQualityProject/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debugowa",
+		"source" : "C:/Users/szymo/OneDrive/Dokumenty/AirQualityProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 641,
+        "paramCode": "NO",
+        "paramFormula": "NO",
+        "paramName": "tlenek azotu",
+        "stationId": 114
+    },
+    {
+        "id": 642,
+        "paramCode": "NO2",
+        "paramFormula": "NO2",
+        "paramName": "dwutlenek azotu",
+        "stationId": 114
+    },
+    {
+        "id": 643,
+        "paramCode": "NOx",
+        "paramFormula": "NOx",
+        "paramName": "tlenki azotu",
+        "stationId": 114
+    },
+    {
+        "id": 644,
+        "paramCode": "O3",
+        "paramFormula": "O3",
+        "paramName": "ozon",
+        "stationId": 114
+    }
+]

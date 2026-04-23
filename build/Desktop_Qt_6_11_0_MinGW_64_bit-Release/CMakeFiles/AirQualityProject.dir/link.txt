@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\AirQualityProject.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\AirQualityProject.dir/objects.a @CMakeFiles\AirQualityProject.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\AirQualityProject.dir/objects.a -Wl,--no-whole-archive -o AirQualityProject.exe -Wl,--out-implib,libAirQualityProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AirQualityProject.dir\linkLibs.rsp

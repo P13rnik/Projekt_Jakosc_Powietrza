@@ -1,0 +1,100 @@
+[
+    {
+        "id": 276,
+        "paramCode": "As(PM10)",
+        "paramFormula": "As(PM10)",
+        "paramName": "arsen w PM10",
+        "stationId": 52
+    },
+    {
+        "id": 278,
+        "paramCode": "BaP(PM10)",
+        "paramFormula": "BaP(PM10)",
+        "paramName": "benzo(a)piren w PM10",
+        "stationId": 52
+    },
+    {
+        "id": 282,
+        "paramCode": "C6H6",
+        "paramFormula": "C6H6",
+        "paramName": "benzen",
+        "stationId": 52
+    },
+    {
+        "id": 284,
+        "paramCode": "Cd(PM10)",
+        "paramFormula": "Cd(PM10)",
+        "paramName": "kadm w PM10",
+        "stationId": 52
+    },
+    {
+        "id": 289,
+        "paramCode": "Ni(PM10)",
+        "paramFormula": "Ni(PM10)",
+        "paramName": "nikiel w PM10",
+        "stationId": 52
+    },
+    {
+        "id": 290,
+        "paramCode": "NO",
+        "paramFormula": "NO",
+        "paramName": "tlenek azotu",
+        "stationId": 52
+    },
+    {
+        "id": 291,
+        "paramCode": "NO2",
+        "paramFormula": "NO2",
+        "paramName": "dwutlenek azotu",
+        "stationId": 52
+    },
+    {
+        "id": 292,
+        "paramCode": "NOx",
+        "paramFormula": "NOx",
+        "paramName": "tlenki azotu",
+        "stationId": 52
+    },
+    {
+        "id": 293,
+        "paramCode": "O3",
+        "paramFormula": "O3",
+        "paramName": "ozon",
+        "stationId": 52
+    },
+    {
+        "id": 294,
+        "paramCode": "Pb(PM10)",
+        "paramFormula": "Pb(PM10)",
+        "paramName": "ołów w PM10",
+        "stationId": 52
+    },
+    {
+        "id": 295,
+        "paramCode": "PM10",
+        "paramFormula": "PM10",
+        "paramName": "pył zawieszony PM10",
+        "stationId": 52
+    },
+    {
+        "id": 297,
+        "paramCode": "SO2",
+        "paramFormula": "SO2",
+        "paramName": "dwutlenek siarki",
+        "stationId": 52
+    },
+    {
+        "id": 14397,
+        "paramCode": "PM10",
+        "paramFormula": "PM10",
+        "paramName": "pył zawieszony PM10",
+        "stationId": 52
+    },
+    {
+        "id": 32560,
+        "paramCode": "PM2.5",
+        "paramFormula": "PM2.5",
+        "paramName": "pył zawieszony PM2.5",
+        "stationId": 52
+    }
+]

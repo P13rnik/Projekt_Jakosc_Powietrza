@@ -1,0 +1,16 @@
+[
+    {
+        "id": 692,
+        "paramCode": "BaP(PM10)",
+        "paramFormula": "BaP(PM10)",
+        "paramName": "benzo(a)piren w PM10",
+        "stationId": 122
+    },
+    {
+        "id": 701,
+        "paramCode": "PM10",
+        "paramFormula": "PM10",
+        "paramName": "pył zawieszony PM10",
+        "stationId": 122
+    }
+]

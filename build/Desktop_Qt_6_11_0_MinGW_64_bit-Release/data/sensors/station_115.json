@@ -1,0 +1,9 @@
+[
+    {
+        "id": 645,
+        "paramCode": "PM2.5",
+        "paramFormula": "PM2.5",
+        "paramName": "pył zawieszony PM2.5",
+        "stationId": 115
+    }
+]

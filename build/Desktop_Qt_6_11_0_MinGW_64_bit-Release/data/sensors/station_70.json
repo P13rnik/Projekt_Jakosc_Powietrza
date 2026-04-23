@@ -1,0 +1,58 @@
+[
+    {
+        "id": 388,
+        "paramCode": "BaP(PM10)",
+        "paramFormula": "BaP(PM10)",
+        "paramName": "benzo(a)piren w PM10",
+        "stationId": 70
+    },
+    {
+        "id": 396,
+        "paramCode": "NO",
+        "paramFormula": "NO",
+        "paramName": "tlenek azotu",
+        "stationId": 70
+    },
+    {
+        "id": 397,
+        "paramCode": "NO2",
+        "paramFormula": "NO2",
+        "paramName": "dwutlenek azotu",
+        "stationId": 70
+    },
+    {
+        "id": 398,
+        "paramCode": "NOx",
+        "paramFormula": "NOx",
+        "paramName": "tlenki azotu",
+        "stationId": 70
+    },
+    {
+        "id": 400,
+        "paramCode": "PM10",
+        "paramFormula": "PM10",
+        "paramName": "pył zawieszony PM10",
+        "stationId": 70
+    },
+    {
+        "id": 401,
+        "paramCode": "PM10",
+        "paramFormula": "PM10",
+        "paramName": "pył zawieszony PM10",
+        "stationId": 70
+    },
+    {
+        "id": 20214,
+        "paramCode": "O3",
+        "paramFormula": "O3",
+        "paramName": "ozon",
+        "stationId": 70
+    },
+    {
+        "id": 32613,
+        "paramCode": "PM2.5",
+        "paramFormula": "PM2.5",
+        "paramName": "pył zawieszony PM2.5",
+        "stationId": 70
+    }
+]

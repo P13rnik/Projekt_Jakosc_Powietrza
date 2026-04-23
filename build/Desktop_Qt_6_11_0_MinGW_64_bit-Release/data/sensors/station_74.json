@@ -1,0 +1,142 @@
+[
+    {
+        "id": 411,
+        "paramCode": "As(cdepoz)",
+        "paramFormula": "As(cdepoz)",
+        "paramName": "arsen (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 412,
+        "paramCode": "As(PM10)",
+        "paramFormula": "As(PM10)",
+        "paramName": "arsen w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 413,
+        "paramCode": "BaA(cdepoz)",
+        "paramFormula": "BaA(cdepoz)",
+        "paramName": "benzo(a)antracen (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 414,
+        "paramCode": "BaA(PM10)",
+        "paramFormula": "BaA(PM10)",
+        "paramName": "benzo(a)antracen w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 415,
+        "paramCode": "BaP(cdepoz)",
+        "paramFormula": "BaP(c.depoz.)",
+        "paramName": "benzo(a)piren (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 416,
+        "paramCode": "BaP(PM10)",
+        "paramFormula": "BaP(PM10)",
+        "paramName": "benzo(a)piren w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 417,
+        "paramCode": "BbF(cdepoz)",
+        "paramFormula": "BbF(cdepoz)",
+        "paramName": "benzo(b)fluoranten (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 418,
+        "paramCode": "BbF(PM10)",
+        "paramFormula": "BbF(PM10)",
+        "paramName": "benzo(b)fluoranten w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 419,
+        "paramCode": "BjF(cdepoz)",
+        "paramFormula": "BjF(cdepoz)",
+        "paramName": "benzo(j)fluoranten (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 420,
+        "paramCode": "BjF(PM10)",
+        "paramFormula": "BjF(PM10)",
+        "paramName": "benzo(j)fluoranten w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 421,
+        "paramCode": "BkF(cdepoz)",
+        "paramFormula": "BkF(cdepoz)",
+        "paramName": "benzo(k)fluoranten (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 422,
+        "paramCode": "BkF(PM10)",
+        "paramFormula": "BkF(PM10)",
+        "paramName": "benzo(k)fluoranten w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 423,
+        "paramCode": "Ca2+(PM2.5)",
+        "paramFormula": "Ca2+(PM2.5)",
+        "paramName": "wapń w PM2.5",
+        "stationId": 74
+    },
+    {
+        "id": 424,
+        "paramCode": "Cd(cdepoz)",
+        "paramFormula": "Cd(cdepoz)",
+        "paramName": "kadm (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 425,
+        "paramCode": "Cd(PM10)",
+        "paramFormula": "Cd(PM10)",
+        "paramName": "kadm w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 426,
+        "paramCode": "Cl_(PM2.5)",
+        "paramFormula": "Cl-(PM2.5)",
+        "paramName": "chlorki w PM2.5",
+        "stationId": 74
+    },
+    {
+        "id": 427,
+        "paramCode": "DBahA(cdepoz)",
+        "paramFormula": "DBahA(cdepoz)",
+        "paramName": "dibenzo(a,h)antracen (całk. depozycja)",
+        "stationId": 74
+    },
+    {
+        "id": 428,
+        "paramCode": "DBahA(PM10)",
+        "paramFormula": "DBahA(PM10)",
+        "paramName": "dibenzo(a,h)antracen w PM10",
+        "stationId": 74
+    },
+    {
+        "id": 429,
+        "paramCode": "EC(PM2.5)",
+        "paramFormula": "EC(PM2.5)",
+        "paramName": "wolny węgiel (EC) w PM2.5",
+        "stationId": 74
+    },
+    {
+        "id": 430,
+        "paramCode": "Hg(cdepoz)",
+        "paramFormula": "Hg(cdepoz)",
+        "paramName": "rtęć (całk. depozycja)",
+        "stationId": 74
+    }
+]

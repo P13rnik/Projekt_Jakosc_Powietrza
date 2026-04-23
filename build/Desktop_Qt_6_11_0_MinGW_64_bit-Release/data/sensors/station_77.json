@@ -1,0 +1,44 @@
+[
+    {
+        "id": 458,
+        "paramCode": "As(PM10)",
+        "paramFormula": "As(PM10)",
+        "paramName": "arsen w PM10",
+        "stationId": 77
+    },
+    {
+        "id": 460,
+        "paramCode": "BaP(PM10)",
+        "paramFormula": "BaP(PM10)",
+        "paramName": "benzo(a)piren w PM10",
+        "stationId": 77
+    },
+    {
+        "id": 464,
+        "paramCode": "Cd(PM10)",
+        "paramFormula": "Cd(PM10)",
+        "paramName": "kadm w PM10",
+        "stationId": 77
+    },
+    {
+        "id": 468,
+        "paramCode": "Ni(PM10)",
+        "paramFormula": "Ni(PM10)",
+        "paramName": "nikiel w PM10",
+        "stationId": 77
+    },
+    {
+        "id": 469,
+        "paramCode": "Pb(PM10)",
+        "paramFormula": "Pb(PM10)",
+        "paramName": "ołów w PM10",
+        "stationId": 77
+    },
+    {
+        "id": 470,
+        "paramCode": "PM10",
+        "paramFormula": "PM10",
+        "paramName": "pył zawieszony PM10",
+        "stationId": 77
+    }
+]

@@ -1,0 +1,3 @@
+C:/Users/szymo/OneDrive/Dokumenty/AirQualityProject/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/szymo/OneDrive/Dokumenty/AirQualityProject/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/szymo/OneDrive/Dokumenty/AirQualityProject/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,141 @@
+Running main() from C:\Users\szymo\OneDrive\Dokumenty\AirQualityProject\build\Desktop_Qt_6_11_0_MinGW_64_bit-Release\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 57 tests from 7 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from SensorTest
+[ RUN      ] SensorTest.ConstructorSetsAllFields
+[       OK ] SensorTest.ConstructorSetsAllFields (0 ms)
+[ RUN      ] SensorTest.DefaultConstructorZeroFields
+[       OK ] SensorTest.DefaultConstructorZeroFields (0 ms)
+[ RUN      ] SensorTest.DifferentParamFormulas
+[       OK ] SensorTest.DifferentParamFormulas (0 ms)
+[----------] 3 tests from SensorTest (0 ms total)
+
+[----------] 8 tests from MeasurementTest
+[ RUN      ] MeasurementTest.EmptyMeasurement
+[       OK ] MeasurementTest.EmptyMeasurement (0 ms)
+[ RUN      ] MeasurementTest.ConstructorFields
+[       OK ] MeasurementTest.ConstructorFields (0 ms)
+[ RUN      ] MeasurementTest.AddSingleValidPoint
+[       OK ] MeasurementTest.AddSingleValidPoint (4 ms)
+[ RUN      ] MeasurementTest.ValidPointsFiltersNulls
+[       OK ] MeasurementTest.ValidPointsFiltersNulls (0 ms)
+[ RUN      ] MeasurementTest.AllNullsGivesEmptyValidPoints
+[       OK ] MeasurementTest.AllNullsGivesEmptyValidPoints (0 ms)
+[ RUN      ] MeasurementTest.DataPointIsValidFlag
+[       OK ] MeasurementTest.DataPointIsValidFlag (0 ms)
+[ RUN      ] MeasurementTest.LargeMeasurementAllValid
+[       OK ] MeasurementTest.LargeMeasurementAllValid (1 ms)
+[ RUN      ] MeasurementTest.MixedValidityPreservesOrder
+[       OK ] MeasurementTest.MixedValidityPreservesOrder (0 ms)
+[----------] 8 tests from MeasurementTest (7 ms total)
+
+[----------] 2 tests from DataPointTest
+[ RUN      ] DataPointTest.DefaultValidIsTrue
+[       OK ] DataPointTest.DefaultValidIsTrue (0 ms)
+[ RUN      ] DataPointTest.ExplicitInvalid
+[       OK ] DataPointTest.ExplicitInvalid (0 ms)
+[----------] 2 tests from DataPointTest (0 ms total)
+
+[----------] 13 tests from AirQualityIndexTest
+[ RUN      ] AirQualityIndexTest.DefaultConstructorIsInvalid
+[       OK ] AirQualityIndexTest.DefaultConstructorIsInvalid (0 ms)
+[ RUN      ] AirQualityIndexTest.ParameterizedConstructorIsValid
+[       OK ] AirQualityIndexTest.ParameterizedConstructorIsValid (0 ms)
+[ RUN      ] AirQualityIndexTest.OverallIndexDefaultId
+[       OK ] AirQualityIndexTest.OverallIndexDefaultId (0 ms)
+[ RUN      ] AirQualityIndexTest.SetOverallIndex
+[       OK ] AirQualityIndexTest.SetOverallIndex (0 ms)
+[ RUN      ] AirQualityIndexTest.ColorLevel0IsGreen
+[       OK ] AirQualityIndexTest.ColorLevel0IsGreen (0 ms)
+[ RUN      ] AirQualityIndexTest.ColorLevel3IsOrange
+[       OK ] AirQualityIndexTest.ColorLevel3IsOrange (0 ms)
+[ RUN      ] AirQualityIndexTest.ColorLevel5IsPurple
+[       OK ] AirQualityIndexTest.ColorLevel5IsPurple (0 ms)
+[ RUN      ] AirQualityIndexTest.ColorUnknownIsGray
+[       OK ] AirQualityIndexTest.ColorUnknownIsGray (0 ms)
+[ RUN      ] AirQualityIndexTest.AddAndGetParamIndex
+[       OK ] AirQualityIndexTest.AddAndGetParamIndex (0 ms)
+[ RUN      ] AirQualityIndexTest.MissingParamIndexReturnsDefault
+[       OK ] AirQualityIndexTest.MissingParamIndexReturnsDefault (0 ms)
+[ RUN      ] AirQualityIndexTest.OverwriteParamIndex
+[       OK ] AirQualityIndexTest.OverwriteParamIndex (0 ms)
+[ RUN      ] AirQualityIndexTest.AllSixStandardParams
+[       OK ] AirQualityIndexTest.AllSixStandardParams (0 ms)
+[ RUN      ] AirQualityIndexTest.SourceDataDate
+[       OK ] AirQualityIndexTest.SourceDataDate (0 ms)
+[----------] 13 tests from AirQualityIndexTest (0 ms total)
+
+[----------] 10 tests from GeoLocatorTest
+[ RUN      ] GeoLocatorTest.SamePointDistanceIsZero
+[       OK ] GeoLocatorTest.SamePointDistanceIsZero (0 ms)
+[ RUN      ] GeoLocatorTest.WarsawKrakow
+[       OK ] GeoLocatorTest.WarsawKrakow (0 ms)
+[ RUN      ] GeoLocatorTest.PoznanWroclaw
+[       OK ] GeoLocatorTest.PoznanWroclaw (0 ms)
+[ RUN      ] GeoLocatorTest.IsSymmetric
+[       OK ] GeoLocatorTest.IsSymmetric (0 ms)
+[ RUN      ] GeoLocatorTest.ShortDistanceAccuracy
+[       OK ] GeoLocatorTest.ShortDistanceAccuracy (0 ms)
+[ RUN      ] GeoLocatorTest.FindNearestReturnsAllWhenNoLimit
+[       OK ] GeoLocatorTest.FindNearestReturnsAllWhenNoLimit (0 ms)
+[ RUN      ] GeoLocatorTest.FindNearestSortedByDistance
+[       OK ] GeoLocatorTest.FindNearestSortedByDistance (0 ms)
+[ RUN      ] GeoLocatorTest.FindNearestWithRadiusFilter
+[       OK ] GeoLocatorTest.FindNearestWithRadiusFilter (0 ms)
+[ RUN      ] GeoLocatorTest.FindNearestEmptyInputReturnsEmpty
+[       OK ] GeoLocatorTest.FindNearestEmptyInputReturnsEmpty (0 ms)
+[ RUN      ] GeoLocatorTest.FindNearestNothingInRadius
+[       OK ] GeoLocatorTest.FindNearestNothingInRadius (0 ms)
+[----------] 10 tests from GeoLocatorTest (0 ms total)
+
+[----------] 7 tests from DatabaseManagerTest
+[ RUN      ] DatabaseManagerTest.SaveAndLoadStations
+[       OK ] DatabaseManagerTest.SaveAndLoadStations (120 ms)
+[ RUN      ] DatabaseManagerTest.HasLocalDataFalseWhenNoFile
+[       OK ] DatabaseManagerTest.HasLocalDataFalseWhenNoFile (38 ms)
+[ RUN      ] DatabaseManagerTest.HasLocalDataTrueAfterSave
+[       OK ] DatabaseManagerTest.HasLocalDataTrueAfterSave (81 ms)
+[ RUN      ] DatabaseManagerTest.LoadStationsThrowsWhenFileAbsent
+[       OK ] DatabaseManagerTest.LoadStationsThrowsWhenFileAbsent (33 ms)
+[ RUN      ] DatabaseManagerTest.SaveAndLoadMeasurementWithNulls
+[       OK ] DatabaseManagerTest.SaveAndLoadMeasurementWithNulls (104 ms)
+[ RUN      ] DatabaseManagerTest.LoadMeasurementReturnsEmptyWhenAbsent
+[       OK ] DatabaseManagerTest.LoadMeasurementReturnsEmptyWhenAbsent (29 ms)
+[ RUN      ] DatabaseManagerTest.ParseExceptionOnCorruptJson
+[       OK ] DatabaseManagerTest.ParseExceptionOnCorruptJson (50 ms)
+[----------] 7 tests from DatabaseManagerTest (459 ms total)
+
+[----------] 14 tests from AirAnalyzerTest
+[ RUN      ] AirAnalyzerTest.AverageBasic
+[       OK ] AirAnalyzerTest.AverageBasic (0 ms)
+[ RUN      ] AirAnalyzerTest.AverageEmpty
+[       OK ] AirAnalyzerTest.AverageEmpty (0 ms)
+[ RUN      ] AirAnalyzerTest.AverageSkipsNullValues
+[       OK ] AirAnalyzerTest.AverageSkipsNullValues (0 ms)
+[ RUN      ] AirAnalyzerTest.AverageAllNull
+[       OK ] AirAnalyzerTest.AverageAllNull (0 ms)
+[ RUN      ] AirAnalyzerTest.ExtremesBasic
+[       OK ] AirAnalyzerTest.ExtremesBasic (0 ms)
+[ RUN      ] AirAnalyzerTest.ExtremesThrowsOnEmpty
+[       OK ] AirAnalyzerTest.ExtremesThrowsOnEmpty (0 ms)
+[ RUN      ] AirAnalyzerTest.ExtremesSinglePoint
+[       OK ] AirAnalyzerTest.ExtremesSinglePoint (0 ms)
+[ RUN      ] AirAnalyzerTest.LinearTrendRising
+[       OK ] AirAnalyzerTest.LinearTrendRising (0 ms)
+[ RUN      ] AirAnalyzerTest.LinearTrendFalling
+[       OK ] AirAnalyzerTest.LinearTrendFalling (0 ms)
+[ RUN      ] AirAnalyzerTest.LinearTrendStable
+[       OK ] AirAnalyzerTest.LinearTrendStable (0 ms)
+[ RUN      ] AirAnalyzerTest.MovingAverageTrendRising
+[       OK ] AirAnalyzerTest.MovingAverageTrendRising (1 ms)
+[ RUN      ] AirAnalyzerTest.StrategySwitch
+[       OK ] AirAnalyzerTest.StrategySwitch (1 ms)
+[ RUN      ] AirAnalyzerTest.AverageInRange
+[       OK ] AirAnalyzerTest.AverageInRange (1 ms)
+[ RUN      ] AirAnalyzerTest.AverageInRangeEmpty
+[       OK ] AirAnalyzerTest.AverageInRangeEmpty (1 ms)
+[----------] 14 tests from AirAnalyzerTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 57 tests from 7 test suites ran. (478 ms total)
+[  PASSED  ] 57 tests.
